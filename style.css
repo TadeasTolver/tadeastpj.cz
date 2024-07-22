@@ -1,0 +1,170 @@
+body {
+    background-color: grey;
+    height: 100%;
+    padding-right: 160px;
+  }
+  
+  html {
+   height: 100%;
+  }
+  
+  
+  #menu-bar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 100%;
+    background-color: black;
+    right: 0;
+    top: 0;
+    z-index: 5;
+    border: 3px solid green;
+  
+  }
+  
+  .m {
+    padding-bottom: 10px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    justify-content: flex-end;
+    font-size: 25px;
+  }
+  
+  .menu-b {
+    position: fixed;
+    font-family: Inter, Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    color: green;
+    transition: font-weight 0.3s linear, color 0.3s linear;
+  }
+  
+  
+  
+  .menu-b:hover {
+    font-weight: 500;
+    color: darkgreen;
+  }
+  
+  h1 {
+    font-family: 'Roboto Slab', Roboto, sans-serif;
+    font-size: 60px;
+    display: inline;
+    position: relative;
+    left: 25px;
+    top: 5px;
+  }
+  
+  h4 {
+    position: relative;
+    left: 30px;
+    font-family: "Noto Serif", serif;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  
+  p {
+    position: relative;
+    padding-left: 25px;
+    padding-right: 145px;
+    margin-bottom: 0;
+    font-size: 25px;
+  }
+  
+  
+  #contact-box {
+    position: relative;
+    margin-top: 100px;
+    bottom: 0;
+    height: 140px;
+    width: 150%;
+    background-color: green;
+    border: 3px solid black;
+  }
+  
+  h2 {
+    position: relative;
+    left: 25px;
+    bottom: 12px;
+    font-family: sans-serif;
+    font-size: 35px;
+  }
+  
+  
+  h3 {
+    position: relative;
+    font-size: 30px;
+    left: 25px;
+    bottom: 33px;
+    font-family: sans-serif;
+    
+  }
+  
+  h6 {
+    position: relative;
+    left: 35px;
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: "Anton", Roboto, sans-serif;
+  }
+  
+  figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  img {
+    width: 220px;
+    height: 400px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    filter: drop-shadow(5px);
+  }
+  
+  .img-con {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    padding-right: 20px; 
+  }
+  
+  
+  .video-t {
+    font-size: 20px;
+    font-family: "Anton", Roboto, sans-serif;
+    font-weight: 500;
+    padding-left: 11px;
+    display: block;
+    margin: 10px;
+    transition: transform 0.6s ease-in;
+  }
+  
+  .video-t:hover {
+    transform: rotate(5deg);
+  }
+  
+  
+  h5 {
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: Ubuntu, Roboto, sans-serif;
+    display: block;
+    
+  }
+  
+  #img-text-con {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .p-link { 
+    color: blue;
+  }
+  
+  
+  
